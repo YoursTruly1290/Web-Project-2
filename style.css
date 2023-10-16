@@ -14,12 +14,6 @@ h1{
 table{
   display: inline;
 }
-.nav-link{
-  display: inline;
-  padding: 5px;
-  margin: 4px;
-  color: #f5f5ff;
-}
 th{
   display: inline;
 }
@@ -27,15 +21,17 @@ a{
   font-family: sans-serif;
   text-decoration: none;
 }
-
-
 body{
   background-image: linear-gradient(to right, #8c22d9, #c2fcf2);
 }
 h2{
   font-family: sans-serif;
   font-size: 50px;
-  padding-left: 300px;
+  padding-left: 100px;
+}
+h3{
+  font-family: sans-serif;
+  font-size: 35px;
 }
 p{
   font-family: sans-serif;
@@ -47,4 +43,8 @@ footer{
   background-color: black;
   padding-right: 600px;
   padding-bottom: 125px;
+}
+.intro{
+  padding-top: 100px;
+  padding-left: 750px;
 }
