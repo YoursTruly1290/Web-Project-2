@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home</title>
+  <link rel="stylesheet" href="style.css" />
+
+  <!-- internal css -->
+  <style>
+    .nav-link{
+      display: inline;
+      padding: 5px;
+      margin: 4px;
+      color: #f5f5ff;
+    }
+    h2{
+      padding-left: 625px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigational Bar -->
+  <header>
+    <table>
+      <th><img id="gradHat" src="Images/gradHat.png" alt="Graduation Hat" width="130" height="100"/></th>
+
+      <th><h1>Janay Patel</h1></th>
+
+      <!-- Navigation links -->
+      <nav>
+        <div class="nav-link">
+          <th style="padding-left: 400px;"><a class="nav-link" href="index.html">Home</a></th>
+          <th><a class="nav-link" href="AboutMe.html">About Me</a></th>
+          <th><a class="nav-link" href="ExtracurricularActivities.html">Extracurricular Activities</a></th>
+          <th><a class="nav-link" href="ContactMe.html">Contact Me</a></th>
+        </div>
+      </nav>
+    </table>
+  </header>
+
+  <main>
+    <!-- title -->
+    <h2>Contact Me</h2>
+    <form>
+      <fieldset>
+        <!-- title of fieldset -->
+        <legend>Contact</legend>
+        <!-- firstname -->
+        <label for="FName">First Name (John):</label>
+        <input type="text" name="FName" id="FName"/>
+        <br />
+        <!-- lastname -->
+        <label for="LName">Last Name (Doe):</label>
+        <input type="text" name="LName" id="LName">
+        <br />
+        <!-- email -->
+        <label for="email">Email (JohnDoe@gamil.com):</label>
+        <input type="email" name="email" id="email"/>
+        <br />
+        <!-- phone number -->
+        <label for="phone">Phone Number (123-456-7890):</label>
+        <input type="tel" name="phone" id="phone"/>
+        <br />
+        <br />
+        <br />
+        <!-- topic of conversation -->
+        <label for="topic">Topic (Need help for studying):</label>
+        <input type="text" name="topic" id="topic" />
+        <br />
+        <!-- description of conversation -->
+        <p style="font-family: sans-serif; font-size: 25px; color: black; padding-bottom: 0px;">Description (describe your issue):</p>
+        <textarea style="margin-left: 20px; margin-bottom: 20px;" name="desc" id="desc" cols="30" rows="10"></textarea>
+        <br />
+        <!-- submit and reset button -->
+        <input style="margin-left: 10px;" type="reset" />
+        <input style="margin-left: 10px;" type="submit" value="Submit" />
+      </fieldset>
+    </form>
+  </main>
+
+  <!-- Footer of the webpage -->
+  <footer></footer>
+
+</body>
+</html>
